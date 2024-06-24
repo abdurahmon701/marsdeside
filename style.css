@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #BCAAAA;
+    margin-top: 10px;
+    position: sticky;
+    height: 100px;
+    top: 1px;
+    box-shadow: 10px 10px 10px;
+    background-color: white;
+}
+.home{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+}
+.home:hover{
+    color: #EF400F;
+}
+.learn{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+}
+.learn:hover{
+    color: #EF400F;
+}
+.shop{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #BCAAAA;
+    gap: 10px;
+}
+.shop:hover{
+    color: #EF400F;
+}
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+    border: 2px solid #EF400F;
+    border-radius: 50px;
+    font-size: 15px;
+    padding: 5px;
+    height: 50px;
+    color: #EF400F;
+}
+section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+}
+.left{
+    margin-left: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #0D0C5C;
+    gap: 10px;
+    font-size: 20px;
+    margin-top: 100px;
+}
+.right{
+    margin-right: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #EF400F;
+    gap: 10px;
+    font-size: 20px;
+    margin-top: 100px;
+}
+.boxs{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1200px;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+.card{
+    width: 200px;
+    background-color: white;
+    margin: 50px;
+    box-shadow:  0px 10px 15px black;
+    padding: 10px;
+    border-radius: 30px;
+    text-align: center;
+}
+.card h1{
+    font-size: 25px;
+}
+main{
+    margin: 0 auto;
+}
+.coin{
+    display: flex;
+    gap: 10px;
+    margin-left: 30px;
+    font-size: 15px;
+    margin-top: 10px;
+}
+.card p{
+    margin-top: 10px;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 50px;
+    color: #BCAAAA;
+}
+footer img{
+    height: 30px;
+    width: 120px;
+}
+footer h1{
+    font-size: 20px;
+}
+footer a{
+    color: #BCAAAA;
+}
